@@ -1,0 +1,28 @@
+"Games"
+{
+    "tf"
+    {
+        "Offsets"
+        {
+            "LauncherSecondaryAttack"
+            {
+                "linux"     "283"
+            }
+            
+            // CTFPipebombLauncher::DetonateRemotePipebombs
+            "LauncherDetonateRemoteBombs"
+            {
+                "linux"     "480"
+            }
+        }
+    }
+}
+
+
+            // "CTFGrenadePipebombProjectile::Detonate"
+            // {
+            //     "library"      "server" // Windows sig generated via makesig.idc https://forums.alliedmods.net/showthread.php?t=191328 ? = \x2A = *
+            //     "windows"      "\x55\x89\xE5\x56\x53\x83\xEC\x40\xA1\x2A\x2A\x2A\x2A\x8B\x5D\x08\xF3\x0F\x10\x40\x0C\x0F\x2F\x83\xE8\x04\x00\x00"
+            //     "linux"        "@_ZN28CTFGrenadePipebombProjectile8DetonateEv"
+            //     "mac"          "@_ZN28CTFGrenadePipebombProjectile8DetonateEv"
+            // }

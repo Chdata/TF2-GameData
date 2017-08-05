@@ -1,0 +1,35 @@
+"Games"
+{
+    "tf"
+    {
+        "Signatures"
+        {
+            "CTFPlayer::PlaySpecificSequence"
+            {
+                "library"   "server"
+                "linux"     "@_ZN9CTFPlayer20PlaySpecificSequenceEPKc"
+                "windows"   "\x55\x8B\xEC\x83\xEC\x30\x53\x56\x8B\x75\x08\x57\x56\x8B\xF9\xE8\x2A\x2A\x2A\x2A\x8B\xD8\x83\xFB\xFF\x74\x2A\x8B\x35\x2A\x2A\x2A\x2A\x8B\xCE\x8B\x16\xFF\x52\x2A\x8B\x8F\x2A\x2A\x2A\x2A\x53\x6A\x13\x8B\x01\xFF\x50"
+            }
+            "CTFWeaponBase::SendWeaponAnim"
+            {
+                "library"   "server"
+                "linux"     "@_ZN13CTFWeaponBase14SendWeaponAnimEi"
+            }
+            "LookupAttachment"
+            {
+                "library"    "server"
+                "linux"        "@_ZN14CBaseAnimating16LookupAttachmentEPKc"
+                "windows"        "\x55\x8B\xEC\x56\x8B\xF1\x80\xBE\x2A\x2A\x2A\x2A\x00\x75\x2A\x83\xBE\x2A\x2A\x2A\x2A\x00\x75\x2A\xE8\x2A\x2A\x2A\x2A\x85\xC0\x74\x2A\x8B\xCE\xE8\x2A\x2A\x2A\x2A\x8B\x2A\x2A\x2A\x2A\x2A\x85\xC0\x74\x2A\x83\x38\x00\x74\x2A\xFF\x75\x08\x50\xE8\x2A\x2A\x2A\x2A\x83\xC4\x08\x40"
+            }
+        }
+        "Offsets"
+        {
+            "CTFWeaponBase::SendWeaponAnim"
+            {
+                "library"   "server"
+                "linux"     "247"
+                "windows"   "241"
+            }
+        }
+    }
+}

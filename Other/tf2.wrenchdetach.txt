@@ -1,0 +1,13 @@
+"Games"
+{
+    "tf"
+    {
+        "Offsets"
+        {
+            "CTFWrench::Detach"
+            {
+                "linux"     "266"
+            }
+        }
+    }
+}

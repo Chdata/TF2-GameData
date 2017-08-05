@@ -1,0 +1,15 @@
+"Games"
+{
+    "tf"
+    {
+        "Signatures"
+        {
+            "CWeaponMedigun::RemoveHealingTarget"
+            {
+                "library" "server"
+                "linux" "@_ZN14CWeaponMedigun19RemoveHealingTargetEb"
+                "mac" "@_ZN14CWeaponMedigun19RemoveHealingTargetEb"
+            }
+        }
+    }
+}

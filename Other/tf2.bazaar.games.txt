@@ -1,0 +1,14 @@
+"Games"
+{
+    "tf"
+    {
+        "Offsets"
+        {
+            "CTFWeaponBase::Misfire"
+            {
+                "windows"    "379"
+                "linux"        "386"
+            }
+        }
+    }
+}

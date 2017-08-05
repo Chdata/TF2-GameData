@@ -1,0 +1,50 @@
+"Games"
+{
+    "tf"
+    {
+        "Signatures"
+        {
+            "CBaseAnimating::LookupBone"
+            {
+                "library" "server"
+                "linux"     "@_ZN14CBaseAnimating10LookupBoneEPKc"
+                "mac"       "@_ZN14CBaseAnimating10LookupBoneEPKc"
+                "windows"   "\x55\x8B\xEC\x56\x8B\xF1\x80\xBE\x41\x03\x00\x00\x00\x75\x2A\x83\xBE\x6C\x04\x00\x00\x00\x75\x2A\xE8\x2A\x2A\x2A\x2A\x85\xC0\x74\x2A\x8B\xCE\xE8\x2A\x2A\x2A\x2A\x8B\x86\x6C\x04\x00\x00\x85\xC0\x74\x2A\x83\x38\x00\x74\x2A\xFF\x75\x08\x50\xE8\x2A\x2A\x2A\x2A\x83\xC4\x08\x5E"
+            }
+            "CBaseAnimating::GetBonePosition"
+            {
+                "library" "server"
+                "linux"     "@_ZN14CBaseAnimating15GetBonePositionEiR6VectorR6QAngle"
+                "mac"       "@_ZN14CBaseAnimating15GetBonePositionEiR6VectorR6QAngle"
+                "windows"   "\x55\x8B\xEC\x83\xEC\x30\x56\x8B\xF1\x80\xBE\x41\x03\x00\x00\x00"
+            }
+        }
+        "Offsets"
+        {
+            "CTFWeaponBase::PrimaryAttack"
+            {
+                "library"   "server"
+                "linux"     "284"
+                "windows"   "278"
+            }
+            "CTFWeaponBase::GetWeaponID" // @_ZNK13CTFWeaponBase11GetWeaponIDEv WILL NOT WORK (function is virtual only)
+            {
+                "library"   "server"
+                "linux"     "378"
+                "windows"   "372"
+            }
+            "CTFWeaponBaseGun::GetProjectileSpeed" // @_ZN16CTFWeaponBaseGun18GetProjectileSpeedEv
+            {
+                "library"   "server"
+                "linux"     "469"
+                "windows"   "462"
+            }
+            "CTFWeaponBaseGun::GetProjectileGravity" // @_ZN16CTFWeaponBaseGun20GetProjectileGravityEv
+            {
+                "library"   "server"
+                "linux"     "470"
+                "windows"   "463"
+            }
+        }
+    }
+}

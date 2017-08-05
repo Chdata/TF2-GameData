@@ -1,0 +1,62 @@
+"Games"
+{
+    "tf"
+    {
+        "Signatures"
+        {
+            "CTFPlayer::GetMaxAmmo"
+            {
+                "library" "server"
+                "linux" "@_ZN9CTFPlayer10GetMaxAmmoEii"
+                "mac" "@_ZN9CTFPlayer10GetMaxAmmoEii"
+                "windows" "\x55\x8B\xEC\x8B\x45\x0C\x56\x57\x8B\xF9\x83\xF8\xFF\x75\x2A\xFF\xB7"
+            }
+            "CTFWeaponBase::GetMaxClip1"
+            {
+                "library" "server"
+                "linux" "@_ZNK13CTFWeaponBase11GetMaxClip1Ev"
+                "mac" "@_ZNK13CTFWeaponBase11GetMaxClip1Ev"
+            }
+            "CBaseCombatWeapon::GetSlot"
+            {
+                "library" "server"
+                "linux" "@_ZNK17CBaseCombatWeapon7GetSlotEv"
+                "mac" "@_ZNK17CBaseCombatWeapon7GetSlotEv"
+            }
+            "CTFPlayer::GetEquippedWearableForLoadoutSlot"
+            {
+                "library"   "server"
+                "linux"     "@_ZN9CTFPlayer33GetEquippedWearableForLoadoutSlotEi"
+                "mac"       "@_ZN9CTFPlayer33GetEquippedWearableForLoadoutSlotEi"
+                "windows"   "\x55\x8B\xEC\x83\xEC\x2A\x8B\xC1\x53\x56\x33\xF6\x89\x45\xF8\x8B\x88\x2A\x2A\x2A\x2A\x57\x89\x4D\xFC"
+            }
+            "CBaseCombatWeapon::GetPrintName"
+            {
+                "library"   "server"
+                "linux"     "@_ZNK17CBaseCombatWeapon12GetPrintNameEv"
+                "mac"       "@_ZNK17CBaseCombatWeapon12GetPrintNameEv"
+            }
+        }
+        "Offsets"
+        {
+            "CTFWeaponBase::GetMaxClip1"
+            {
+                "library"   "server"
+                "linux"     "322"
+                "windows"   "316"
+            }
+            "CBaseCombatWeapon::GetSlot"
+            {
+                "library"   "server"
+                "linux"     "331"
+                "windows"   "325"
+            }
+            "CBaseCombatWeapon::GetPrintName"
+            {
+                "library"   "server"
+                "linux"     "334"
+                "windows"   "328"
+            }
+        }
+    }
+}

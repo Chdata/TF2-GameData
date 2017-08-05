@@ -1,0 +1,16 @@
+"Games"
+{
+	"tf"
+	{
+		"Signatures"
+        {
+            "CBasePlayer::EquipWearable"
+            {
+                "library"      "server" // Windows sig generated via makesig.idc https://forums.alliedmods.net/showthread.php?t=191328 ? = \x2A = *
+                "windows"      "\x55\x89\xE5\x83\xEC\x28\x89\x5D\xF8\x8B\x5D\x0C\x89\x75\xFC\x8B\x75\x08\x85\xDB\x74\x2A\x8B\x03\xC7\x45\xF4\xFF\xFF\xFF\xFF"
+                "linux"        "@_ZN11CBasePlayer13EquipWearableEP13CEconWearable"
+                "mac"          "@_ZN11CBasePlayer13EquipWearableEP13CEconWearable"
+            }
+        }
+	}
+}

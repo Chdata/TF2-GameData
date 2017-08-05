@@ -1,0 +1,16 @@
+"Games"
+{
+    
+    "tf"
+    {
+        "Offsets"
+        
+        {
+            "SetWinningTeam"
+            {
+                "windows"   "154"
+                "linux"     "155"
+            }
+        }
+    }
+}

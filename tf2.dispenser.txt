@@ -1,0 +1,82 @@
+"Games"
+{
+    "tf"
+    {
+        "Offsets"
+        {
+            "CObjectDispenser::DispenseAmmo" // DispenseAmmo(CTFPlayer*)
+            {
+                "linux"        "414"
+                "mac"        "414"
+                "windows"    "400"
+            }
+            "CObjectDispenser::DispenseMetal" // DispenseMetal(CTFPlayer*)
+            {
+                "linux"        "407"
+                "mac"        "407"
+                "windows"    "393"
+            }
+            "CObjectDispenser::StartHealing" // StartHealing(CBaseEntity*)
+            {
+                "linux"        "419"
+                "mac"        "419"
+                "windows"    "405"
+            }
+            "CObjectDispenser::GetBaseHealth"
+            {
+                "linux"        "377"
+                "mac"        "377"
+                "windows"    "375"
+            }
+            "CObjectDispenser::GetMiniBuildingStartingHealth"
+            {
+                "linux"        "381"
+                "mac"        "381"
+                "windows"    "379"
+            }
+            "CObjectDispenser::RefillThink"
+            {
+                "linux"        "409"
+                "mac"        "409"
+                "windows"    "395"
+            }
+            "CObjectDispenser::GetBuildingModel" // GetBuildingModel(int)
+            {
+                "linux"        "411"
+                "mac"        "411"
+                "windows"    "397"
+            }
+            "CObjectDispenser::GetFinishedModel" // GetFinishedModel(int)
+            {
+                "linux"        "412"
+                "mac"        "412"
+                "windows"    "398"
+            }
+            "CObjectDispenser::GetPlacementModel"
+            {
+                "linux"        "413"
+                "mac"        "413"
+                "windows"    "399"
+            }
+            "CObjectDispenser::GetMaxHealthForCurrentLevel"
+            {
+                "linux"        "382"
+                "mac"        "382"
+                "windows"    "380"
+            }
+        }
+        "Signatures"
+        {
+            "CObjectDispenser::RemoveHealingTarget"
+            {
+                "linux"        "@_ZN16CObjectDispenser19RemoveHealingTargetEP11CBaseEntity"
+                "mac"        "@_ZN16CObjectDispenser19RemoveHealingTargetEP11CBaseEntity"
+            }
+            "CBaseObject::DoQuickBuild"
+            {
+                "linux"        "@_ZN11CBaseObject12DoQuickBuildEb"
+                "mac"        "@_ZN11CBaseObject12DoQuickBuildEb"
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+"Games"
+{
+    "tf"
+    {
+        "Signatures"
+        {
+            "CTFPipebombLauncher::DetonateRemotePipebombs"
+            {
+                "library"      "server" // Note: I don't know if the windows sigs work
+                "windows"      "\x55\x89\xE5\x57\x56\x53\x83\xEC\x5C\x8B\x7D\x08\xC7\x44\x24\x10\x01\x00\x00\x00"
+                "linux"        "@_ZN19CTFPipebombLauncher23DetonateRemotePipebombsEb"
+                "mac"          "@_ZN19CTFPipebombLauncher23DetonateRemotePipebombsEb"
+            }
+        }
+    }
+}

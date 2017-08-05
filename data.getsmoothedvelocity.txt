@@ -1,0 +1,14 @@
+"Games"
+{
+    "tf"
+    {
+        "Signatures
+        {
+            "GetSmoothedVelocity"
+            {
+                "linux" "@_ZN11CAI_BaseNPC19GetSmoothedVelocityEv"
+                "mac" "@_ZN11CAI_BaseNPC19GetSmoothedVelocityEv"
+            }
+        }
+    }
+}  
