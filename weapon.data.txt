@@ -42,20 +42,20 @@
             "CTFWeaponBase::GetMaxClip1"
             {
                 "library"   "server"
-                "linux"     "324"
-                "windows"   "318"
+                "linux"     "327"
+                "windows"   "321"
             }
             "CBaseCombatWeapon::GetSlot"
             {
                 "library"   "server"
-                "linux"     "333"
-                "windows"   "327"
+                "linux"     "336"
+                "windows"   "330"
             }
             "CBaseCombatWeapon::GetPrintName"
             {
                 "library"   "server"
-                "linux"     "336"
-                "windows"   "330"
+                "linux"     "339"
+                "windows"   "333"
             }
         }
     }
